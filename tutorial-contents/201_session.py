@@ -35,12 +35,12 @@ print(dot_operation)  # wrong! no result
     我覺得，TensorFlow 是一台 Virtual Machine 
 '''
 # method1 use session
-sess = tf.Session()
+sess = tf.Session()  # 大寫的應該是 constructor
 result = sess.run(dot_operation)
-print(result)
+print(result)  # [[12]]
 sess.close()
 
 # method2 use session
 with tf.Session() as sess:
     result_ = sess.run(dot_operation)
-    print(result_)
+    print(result_)  # [[12]]
