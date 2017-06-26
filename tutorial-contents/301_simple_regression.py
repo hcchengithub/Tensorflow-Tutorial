@@ -7,7 +7,8 @@ tensorflow: 1.1.0
 matplotlib
 numpy
 
-這個例題看來是 ___ 的簡化版本, 示範 tensorflow 做 regression 擬合可以簡化到這麼幾行程式。
+tensorflowTUT\tensorflow10_def_add_layer.py 之後的幾課
+這個例題看來是 _^_ 的簡化版本, 示範 tensorflow 做 regression 擬合可以簡化到這麼幾行程式。
 但是簡化後,我比較難懂。要從完整的版本看過來才好懂。 怎麼從 Weights biases Activation
 Functions 完整地把 neuron 建起來，然後組合成 neural layer 等等細節。
 
